@@ -136,7 +136,7 @@ input::placeholder{
 			width: 37%;
 			margin: auto;
 			position: absolute;
-			top: 20%;
+			top: 17%;
 			left: 50%;
 		}
 		.sign-in h2{
@@ -259,12 +259,13 @@ input::placeholder{
 		width: 37%;
 		margin: auto;
 		position: absolute;
-		top: 50%;
+		top: 45%;
 		left: 50%;
 	}
 	.sign-in h2{
 		font-size: 1.5rem;
 		color: #fff;
+		margin-bottom: 10px;
 	}
 	input{
 		border-radius: 20px;
