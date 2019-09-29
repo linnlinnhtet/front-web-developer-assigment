@@ -106,13 +106,13 @@ input::placeholder{
 		background-color: #1C3763;
 		color: #fff;
 		border-style: none;
-		margin-right: -20px;
+		font-size: 0.75rem;
 	}
 	.next-btn:focus{
 		outline: none;
 	}
 	.remember-pwd{
-		margin-top: 3px;
+		margin-top: 2px;
 		float: right;
 		color: #fff;
 		font-size: 0.5rem;
