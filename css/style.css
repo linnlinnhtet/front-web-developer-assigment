@@ -1,5 +1,5 @@
 /*
-| 
+| This is Platform Login CSS
 |
 
 */
@@ -24,6 +24,7 @@ input{
 	border-radius: 46px;
 	width: 100%;
 	margin: 5px 0 5px 0;
+	text-indent:20px;
 	padding: 10px 0 10px 0px;
 	background: none;
 	color: #fff;
@@ -36,7 +37,7 @@ input:focus{
 }
 input::placeholder{
 	color: white;
-	font-size: 1rem;
+	font-size: 0.75rem;
 }
 .next-btn{
 	width: 100%;
@@ -249,6 +250,7 @@ input::placeholder{
 		border-radius: 46px;
 		margin-top: 5px;
 		padding: 5px 0 5px 0;
+		text-indent:20px;
 		background-color: #1C3763;
 		color: #fff;
 		border-style: none;
