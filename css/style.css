@@ -1,3 +1,8 @@
+/*
+| 
+|
+
+*/
 *{
 	margin: 0;
 	padding: 0;
@@ -16,7 +21,7 @@
 	color: #fff;
 }
 input{
-	border-radius: 20px;
+	border-radius: 46px;
 	width: 100%;
 	margin: 5px 0 5px 0;
 	padding: 10px 0 10px 0px;
@@ -26,7 +31,7 @@ input{
 }
 input:focus{
 	outline: none;
-	border:3px solid #1C3763;
+	border:1px solid #1C3763;
 	column-rule-color: #fff;
 }
 input::placeholder{
@@ -35,18 +40,20 @@ input::placeholder{
 }
 .next-btn{
 	width: 100%;
-	border-radius: 20px;
+	border-radius: 46px;
 	margin-top: 5px;
 	padding: 10px 0 10px 0;
 	background-color: #1C3763;
 	color: #fff;
 	border-style: none;
-	margin-right: -20px;
-	padding-left: 20px;
+	cursor: -webkit-grab; 
+	cursor: grab;
 }
 
 .next-btn:hover{
-	color: #BB3B56;
+	color: #FFF;
+	transition-duration: .4s;
+	border: 1px solid #1C3763;
 }
 .remember-pwd{
 	margin-top: 5px;
@@ -83,7 +90,7 @@ input::placeholder{
 		color: #fff;
 	}
 	input{
-		border-radius: 20px;
+		border-radius: 46px;
 		width: 100%;
 		margin: 2px 0 2px 0;
 		padding: 3px 0 3px;
@@ -93,7 +100,7 @@ input::placeholder{
 	}
 	input:focus{
 		outline: none;
-		border:3px solid #1C3763;
+		border:1px solid #1C3763;
 		column-rule-color: #fff;
 	}
 	input::placeholder{
@@ -103,16 +110,21 @@ input::placeholder{
 	}
 	.next-btn{
 		width: 100%;
-		border-radius: 20px;
+		border-radius: 46px;
 		margin-top: 2px;
 		padding: 3px 0 3px 0;
 		background-color: #1C3763;
 		color: #fff;
 		border-style: none;
 		font-size: 0.5rem;
+		cursor: -webkit-grab; 
+		cursor: grab;
 	}
 	.next-btn:hover{
-		color: #BB3B56;
+		background-color: #7890b8;
+		transition-duration: .6s;
+		border: 1px solid #fff;
+
 	}
 	.remember-pwd{
 		margin-top: 2px;
@@ -143,11 +155,11 @@ input::placeholder{
 			left: 50%;
 		}
 		.sign-in h2{
-		font-size: 0.75rem;
+		font-size: 1rem;
 		color: #fff;
 	}
 	input{
-		border-radius: 20px;
+		border-radius: 46px;
 		width: 100%;
 		margin: 2px 0 2px 0;
 		padding: 3px 0 3px;
@@ -157,7 +169,7 @@ input::placeholder{
 	}
 	input:focus{
 		outline: none;
-		border:3px solid #1C3763;
+		border:1px solid #1C3763;
 		column-rule-color: #fff;
 	}
 	input::placeholder{
@@ -167,16 +179,20 @@ input::placeholder{
 	}
 	.next-btn{
 		width: 100%;
-		border-radius: 20px;
+		border-radius: 46px;
 		margin-top: 2px;
 		padding: 3px 0 3px 0;
 		background-color: #1C3763;
 		color: #fff;
 		border-style: none;
 		font-size: 0.75rem;
+		cursor: -webkit-grab; 
+		cursor: grab;
 	}
 	.next-btn:hover{
-		color: #BB3B56;
+		background-color: #7890b8;
+		transition-duration: .6s;
+		border: 1px solid #fff;
 	}
 	.remember-pwd{
 		margin-top: 3px;
@@ -206,11 +222,11 @@ input::placeholder{
 		left: 50%;
 	}
 	.sign-in h2{
-		font-size: 0.75rem;
+		font-size: 1.25rem;
 		color: #fff;
 	}
 	input{
-		border-radius: 20px;
+		border-radius: 46px;
 		width: 100%;
 		margin: 5px 0 5px 0;
 		padding: 5px 0 5px;
@@ -220,7 +236,7 @@ input::placeholder{
 	}
 	input:focus{
 		outline: none;
-		border:3px solid #1C3763;
+		border:1px solid #1C3763;
 		column-rule-color: #fff;
 	}
 	input::placeholder{
@@ -230,15 +246,18 @@ input::placeholder{
 	}
 	.next-btn{
 		width: 100%;
-		border-radius: 20px;
+		border-radius: 46px;
 		margin-top: 5px;
 		padding: 5px 0 5px 0;
 		background-color: #1C3763;
 		color: #fff;
 		border-style: none;
+		cursor: -webkit-grab; 
+		cursor: grab;
 	}
 	.next-btn:hover{
-		color: #BB3B56;
+		background-color: #7890b8;
+		transition-duration: .6s;
 	}
 	.remember-pwd{
 		margin-top: 3px;
@@ -274,10 +293,11 @@ input::placeholder{
 	}
 	/*for email and password*/
 	input{
-		border-radius: 20px;
+		border-radius: 46px;
 		width: 100%;
 		margin: 5px 0 5px 0;
-		padding: 15px 0 15px 0px;
+		padding: 15px 0 15px;
+		text-indent:20px;
 		background: none;
 		color: #fff;
 		font-size: 1rem;
@@ -285,27 +305,30 @@ input::placeholder{
 	}
 	input:focus{
 		outline: none;
-		border:3px solid #1C3763;
+		border:1px solid #1C3763;
 		column-rule-color: #fff;
 	}
 	input::placeholder{
 		color: white;
 		font-size: 1rem;
-		padding: 20px 0 20px 20px;
+		padding: 20px 0 20px;
 	}
 	/*for button*/
 	.next-btn{
 		width: 100%;
-		border-radius: 20px;
+		border-radius: 46px;
 		margin-top: 10px;
 		padding: 15px 0 15px 0;
 		background-color: #1C3763;
 		color: #fff;
 		border-style: none;
 		font-size: 1rem;
+		cursor: -webkit-grab; 
+		cursor: grab;
 	}
 	.next-btn:hover{
-		color: #BB3B56;
+		background-color: #7890b8;
+		transition-duration: .6s;
 	}
 /*	for forget password
 */	.remember-pwd{
@@ -317,8 +340,12 @@ input::placeholder{
 	.forgot-password{
 		display: block;
 		text-align: right;
+		margin-left: 20px;
 		color: #fff;
 		padding: 2.5px 0 2.5px 0;
+	}
+	label{
+		padding-left: 2px;
 	}
 	.start-free{
 		text-align: right;
