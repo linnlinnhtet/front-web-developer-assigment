@@ -68,7 +68,7 @@ input::placeholder{
 }
 
 /*for Mobile*/
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   .sign-in{
 		width: 37%;
 		margin: auto;
@@ -106,7 +106,7 @@ input::placeholder{
 		background-color: #1C3763;
 		color: #fff;
 		border-style: none;
-		font-size: 0.75rem;
+		font-size: 0.5rem;
 	}
 	.next-btn:focus{
 		outline: none;
@@ -128,15 +128,15 @@ input::placeholder{
 		color:#fff;
 		padding: 2.5px 0 2.5px 0;
 	}
-	}
+}
 
 /*For Ipad*/
-@media (min-width: 500px) and (max-width: 768px) {
+@media (min-width: 416px) and (max-width: 768px) {
 	  .sign-in{
 			width: 37%;
 			margin: auto;
 			position: absolute;
-			top: 15%;
+			top: 20%;
 			left: 50%;
 		}
 		.sign-in h2{
@@ -198,7 +198,7 @@ input::placeholder{
 		width: 37%;
 		margin: auto;
 		position: absolute;
-		top: 25%;
+		top: 23%;
 		left: 50%;
 	}
 	.sign-in h2{
@@ -226,12 +226,11 @@ input::placeholder{
 	.next-btn{
 		width: 100%;
 		border-radius: 20px;
-		margin-top: 2px;
-		padding: 3px 0 3px 0;
+		margin-top: 5px;
+		padding: 5px 0 5px 0;
 		background-color: #1C3763;
 		color: #fff;
 		border-style: none;
-		margin-right: -20px;
 	}
 	.next-btn:focus{
 		outline: none;
@@ -246,7 +245,7 @@ input::placeholder{
 		display: block;
 		text-align: right;
 		color: #fff;
-		padding: 2.5px 0 2.5px 0;
+		padding: 5px 0 5px 0;
 	}
 	.start-free{
 		text-align: right;
@@ -260,7 +259,7 @@ input::placeholder{
 		width: 37%;
 		margin: auto;
 		position: absolute;
-		top: 50%;
+		top: 60%;
 		left: 50%;
 	}
 	.sign-in h2{
@@ -293,7 +292,6 @@ input::placeholder{
 		background-color: #1C3763;
 		color: #fff;
 		border-style: none;
-		margin-right: -20px;
 	}
 	.next-btn:focus{
 		outline: none;
@@ -302,7 +300,7 @@ input::placeholder{
 		margin-top: 3px;
 		float: right;
 		color: #fff;
-		font-size: 0.75rem;
+		font-size: 1rem;
 	}
 	.forgot-password{
 		display: block;
