@@ -150,7 +150,7 @@ input::placeholder{
 		padding: 3px 0 3px 10px;
 		background: none;
 		color: #fff;
-		font-size: 0.5rem;
+		font-size: 0.75rem;
 	}
 	input:focus{
 		outline: none;
@@ -159,7 +159,7 @@ input::placeholder{
 	}
 	input::placeholder{
 		color: white;
-		font-size: 0.5rem;
+		font-size: 0.75rem;
 	}
 	.next-btn{
 		width: 100%;
@@ -169,7 +169,7 @@ input::placeholder{
 		background-color: #1C3763;
 		color: #fff;
 		border-style: none;
-		margin-right: -20px;
+		font-size: 0.75rem;
 	}
 	.next-btn:focus{
 		outline: none;
@@ -178,18 +178,18 @@ input::placeholder{
 		margin-top: 3px;
 		float: right;
 		color: #fff;
-		font-size: 0.5rem;
+		font-size: 0.75rem;
 	}
 	.forgot-password{
 		display: block;
 		text-align: right;
 		color: #fff;
-		padding: 2.5px 0 2.5px 0;
+		padding: 4px 0 4px 0;
 	}
 	.start-free{
 		text-align: right;
 		color:#fff;
-		padding: 2.5px 0 2.5px 0;
+		padding: 4px 0 4px 0;
 	}
 }
 /*for ipad pro*/
@@ -198,7 +198,7 @@ input::placeholder{
 		width: 37%;
 		margin: auto;
 		position: absolute;
-		top: 23%;
+		top: 18%;
 		left: 50%;
 	}
 	.sign-in h2{
@@ -259,7 +259,7 @@ input::placeholder{
 		width: 37%;
 		margin: auto;
 		position: absolute;
-		top: 45%;
+		top: 50%;
 		left: 50%;
 	}
 	.sign-in h2{
